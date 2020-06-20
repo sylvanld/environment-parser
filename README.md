@@ -2,6 +2,14 @@
 
 > A lightweight python library to parse environment variables from current shell or .env files.
 
+[GitHub repository](https://github.com/sledeunf/environment-parser)
+
+## Installation
+
+```bash
+pip install python
+```
+
 ## Usage
 
 Create a new environment parser from shell context.
@@ -29,4 +37,16 @@ MENU_PREFIX                   gnome-
 SESSION_DESKTOP               budgie-desktop      
 SESSION_TYPE                  x11                 
 GREETER_DATA_DIR              /var/lib/lightdm-data/sylvan
+```
+
+## Contribute
+
+Requirements:
+* python 3.8
+* [pipenv package](https://github.com/pypa/pipenv)
+
+
+Install dev dependencies by running
+```bash
+pipenv install --dev
 ```
